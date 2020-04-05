@@ -28,7 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		205CA914454E22DFF29E2C4B /* WBSwiftExtensionKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = WBSwiftExtensionKit.podspec; path = ../WBSwiftExtensionKit.podspec; sourceTree = "<group>"; };
+		205CA914454E22DFF29E2C4B /* WBSwiftExtensionKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WBSwiftExtensionKit.podspec; path = ../WBSwiftExtensionKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		312B129B99E15BB9961E09F7 /* Pods_WBSwiftExtensionKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WBSwiftExtensionKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31E100D566AF6CBF9BCD64FC /* Pods-WBSwiftExtensionKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBSwiftExtensionKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-WBSwiftExtensionKit_Tests/Pods-WBSwiftExtensionKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3EC6E36323A1ADB5295BE530 /* Pods-WBSwiftExtensionKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBSwiftExtensionKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-WBSwiftExtensionKit_Tests/Pods-WBSwiftExtensionKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -44,8 +44,8 @@
 		607FACE51AFB9204008FA782 /* WBSwiftExtensionKit_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WBSwiftExtensionKit_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		A1F6A3FEC7A6E34B5FB9DD26 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		F3ADC5CC7E40B5B478913F02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		A1F6A3FEC7A6E34B5FB9DD26 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F3ADC5CC7E40B5B478913F02 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		F9AF0BEBFEDDF31BCFD8FE1E /* Pods-WBSwiftExtensionKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WBSwiftExtensionKit_Example.release.xcconfig"; path = "Target Support Files/Pods-WBSwiftExtensionKit_Example/Pods-WBSwiftExtensionKit_Example.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -147,7 +147,6 @@
 				31E100D566AF6CBF9BCD64FC /* Pods-WBSwiftExtensionKit_Tests.debug.xcconfig */,
 				3EC6E36323A1ADB5295BE530 /* Pods-WBSwiftExtensionKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

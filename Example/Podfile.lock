@@ -1,0 +1,16 @@
+PODS:
+  - WBSwiftExtensionKit (0.1.0)
+
+DEPENDENCIES:
+  - WBSwiftExtensionKit (from `../`)
+
+EXTERNAL SOURCES:
+  WBSwiftExtensionKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  WBSwiftExtensionKit: 323d948abaec8088795640812ebd8f679964fa31
+
+PODFILE CHECKSUM: ed2b51ad091c9edc3f35b4026ba6fbb2f97c15e9
+
+COCOAPODS: 1.9.1

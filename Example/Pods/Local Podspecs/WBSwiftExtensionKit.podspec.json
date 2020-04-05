@@ -1,0 +1,22 @@
+{
+  "name": "WBSwiftExtensionKit",
+  "version": "0.1.0",
+  "summary": "A short description of WBSwiftExtensionKit.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/wenmobo/WBSwiftExtensionKit",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "wenmobo": "wenmobo2018@gmai.com"
+  },
+  "source": {
+    "git": "https://github.com/wenmobo/WBSwiftExtensionKit.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "WBSwiftExtensionKit/Classes/**/*"
+}
