@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'WBSwiftExtensionKit_Example' do
+  pod 'WBSwiftExtensionKit', :path => '../'
+
+  target 'WBSwiftExtensionKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
