@@ -1,5 +1,5 @@
 PODS:
-  - WBSwiftExtensionKit (0.1.0)
+  - WBSwiftExtensionKit (2)
 
 DEPENDENCIES:
   - WBSwiftExtensionKit (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  WBSwiftExtensionKit: 323d948abaec8088795640812ebd8f679964fa31
+  WBSwiftExtensionKit: faebe63971668d6211d56333ae228844d0625ab3
 
 PODFILE CHECKSUM: ed2b51ad091c9edc3f35b4026ba6fbb2f97c15e9
 

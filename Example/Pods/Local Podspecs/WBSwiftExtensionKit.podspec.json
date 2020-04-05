@@ -1,6 +1,6 @@
 {
   "name": "WBSwiftExtensionKit",
-  "version": "0.1.0",
+  "version": "2",
   "summary": "A short description of WBSwiftExtensionKit.",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/wenmobo/WBSwiftExtensionKit",
@@ -13,10 +13,21 @@
   },
   "source": {
     "git": "https://github.com/wenmobo/WBSwiftExtensionKit.git",
-    "tag": "0.1.0"
+    "tag": "2"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "9.0"
   },
-  "source_files": "WBSwiftExtensionKit/Classes/**/*"
+  "source_files": "WBSwiftExtensionKit/Classes/**/*.swift",
+  "frameworks": [
+    "UIKit",
+    "AdSupport",
+    "Foundation"
+  ],
+  "requires_arc": true,
+  "swift_versions": "5.0",
+  "pod_target_xcconfig": {
+    "SWIFT_VERSION": "5.0"
+  },
+  "swift_version": "5.0"
 }
